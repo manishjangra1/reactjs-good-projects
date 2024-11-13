@@ -1,0 +1,16 @@
+/* MyComponent.module.css */
+.container {
+    @apply flex justify-between bg-slate-500 text-white p-4; /* Use Tailwind's @apply */
+}
+
+.responsive {
+    @apply md:bg-green-500 lg:bg-slate-500;
+}
+
+.listItems{
+    @apply hidden justify-between items-end gap-1
+}
+
+.responsiveListItems{
+    @apply md:flex md:justify-between lg:flex
+}
